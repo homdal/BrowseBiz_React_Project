@@ -67,7 +67,7 @@ const App = () => {
   return (
     <LayoutComponent>
       {doneAuth && dataReady ? (
-        <Router basename="/react" />
+        <Router />
       ) : (
         <Box textAlign="center">
           <CircularProgress color="info" sx={{ mt: 20 }} size={90} />
