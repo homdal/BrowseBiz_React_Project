@@ -23,7 +23,7 @@ axios.interceptors.request.use((config) => {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename="/react">
+    <BrowserRouter basename="/BrowseBiz_React_Project">
       <App />
     </BrowserRouter>
   </Provider>
